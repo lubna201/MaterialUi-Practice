@@ -59,7 +59,7 @@ const Header = () => {
             dignissimos laborum fugiat deleniti? Eum quasi quidem quibusdam.
                     </Typography>
           <div>
-            <Button variant="outlined" color="primary" onClick={handleClickOpen}>
+            <Button variant="outlined" color="secondary" onClick={handleClickOpen}>
               Slide in alert dialog
             </Button>
             <Dialog
@@ -78,10 +78,10 @@ const Header = () => {
           </DialogContentText>
               </DialogContent>
               <DialogActions>
-                <Button onClick={handleClose} color="primary">
+                <Button onClick={handleClose} color="secondary">
                   Disagree
           </Button>
-                <Button onClick={handleClose} color="primary">
+                <Button onClick={handleClose} color="secondary">
                   Agree
           </Button>
               </DialogActions>

@@ -62,12 +62,12 @@ const CardPart = () => {
             <div className={classes.heroButtons}>
               <Grid container spacing={2} justify="center">
                 <Grid item>
-                  <Button variant="contained" color="primary">
+                  <Button variant="contained" color="secondary">
                     Main call to action
                     </Button>
                 </Grid>
                 <Grid item>
-                  <Button variant="contained" color="primary" startIcon={<SaveIcon />}>Save Now</Button>
+                  <Button variant="contained" color="secondary" startIcon={<SaveIcon />}>Save Now</Button>
                 </Grid>
               </Grid>
             </div>
@@ -92,10 +92,10 @@ const CardPart = () => {
                       </Typography>
                   </CardContent>
                   <CardActions>
-                    <Button size="small" color="primary">
+                    <Button size="small" color="secondary">
                       View
                       </Button>
-                    <Button size="small" color="primary">
+                    <Button size="small" color="secondary">
                       Edit
                       </Button>
                   </CardActions>
